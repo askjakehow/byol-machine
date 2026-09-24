@@ -43,8 +43,7 @@ jobs:
           PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
         run: |
           if [ "${{ github.event.inputs.dry }}" = "true" ]; then node push.js --dry; else node push.js; fi
-      - name: commit state and report
- if: always()
+      - name: commit state and report()
         run: |
           git add state reports && git commit -m "machine: push report" || echo "nothing new"
           git push
