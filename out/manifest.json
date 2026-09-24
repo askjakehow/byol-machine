@@ -1,0 +1,794 @@
+[
+  {
+    "name": "fl2_front_latina",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_latina__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_latina",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_latina__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_latina",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_latina__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 1018.469970703125
+    }
+  },
+  {
+    "name": "fl2_back_latina",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_latina__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 1018.469970703125
+    }
+  },
+  {
+    "name": "fl2_front_mexicana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_mexicana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_mexicana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_mexicana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_mexicana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_mexicana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 938
+    }
+  },
+  {
+    "name": "fl2_back_mexicana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_mexicana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 938
+    }
+  },
+  {
+    "name": "fl2_front_boricua",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_boricua__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_boricua",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_boricua__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_boricua",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_boricua__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 965
+    }
+  },
+  {
+    "name": "fl2_back_boricua",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_boricua__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 965
+    }
+  },
+  {
+    "name": "fl2_front_cubana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_cubana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_cubana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_cubana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_cubana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_cubana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 980
+    }
+  },
+  {
+    "name": "fl2_back_cubana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_cubana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 980
+    }
+  },
+  {
+    "name": "fl2_front_dominicana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_dominicana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_dominicana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_dominicana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_dominicana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_dominicana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 905
+    }
+  },
+  {
+    "name": "fl2_back_dominicana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_dominicana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 905
+    }
+  },
+  {
+    "name": "fl2_front_colombiana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_colombiana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_colombiana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_colombiana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_colombiana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_colombiana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 897
+    }
+  },
+  {
+    "name": "fl2_back_colombiana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_colombiana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 897
+    }
+  },
+  {
+    "name": "fl2_front_venezolana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_venezolana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_venezolana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_venezolana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_venezolana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_venezolana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 896
+    }
+  },
+  {
+    "name": "fl2_back_venezolana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_venezolana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 896
+    }
+  },
+  {
+    "name": "fl2_front_salvadorena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_salvadorena__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_salvadorena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_salvadorena__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_salvadorena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_salvadorena__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1050.0078125,
+      "height": 933
+    }
+  },
+  {
+    "name": "fl2_back_salvadorena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_salvadorena__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1050.0078125,
+      "height": 933
+    }
+  },
+  {
+    "name": "fl2_front_guatemalteca",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_guatemalteca__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_guatemalteca",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_guatemalteca__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_guatemalteca",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_guatemalteca__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9921875,
+      "height": 896
+    }
+  },
+  {
+    "name": "fl2_back_guatemalteca",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_guatemalteca__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9921875,
+      "height": 896
+    }
+  },
+  {
+    "name": "fl2_front_hondurena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_hondurena__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_hondurena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_hondurena__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_hondurena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_hondurena__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 930
+    }
+  },
+  {
+    "name": "fl2_back_hondurena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_hondurena__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 930
+    }
+  },
+  {
+    "name": "fl2_front_peruana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_peruana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_peruana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_peruana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_peruana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_peruana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 949
+    }
+  },
+  {
+    "name": "fl2_back_peruana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_peruana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 949
+    }
+  },
+  {
+    "name": "fl2_front_ecuatoriana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_ecuatoriana__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_ecuatoriana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_ecuatoriana__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_ecuatoriana",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_ecuatoriana__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9296875,
+      "height": 914
+    }
+  },
+  {
+    "name": "fl2_back_ecuatoriana",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_ecuatoriana__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9296875,
+      "height": 914
+    }
+  },
+  {
+    "name": "fl2_front_argentina",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_argentina__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_argentina",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_argentina__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_argentina",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_argentina__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 919
+    }
+  },
+  {
+    "name": "fl2_back_argentina",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_argentina__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 919
+    }
+  },
+  {
+    "name": "fl2_front_chilena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_chilena__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_chilena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_chilena__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_chilena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_chilena__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 974
+    }
+  },
+  {
+    "name": "fl2_back_chilena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_chilena__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 974
+    }
+  },
+  {
+    "name": "fl2_front_brasilena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_brasilena__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_brasilena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_brasilena__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_brasilena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_brasilena__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 950
+    }
+  },
+  {
+    "name": "fl2_back_brasilena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_brasilena__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 950
+    }
+  },
+  {
+    "name": "fl2_front_panamena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_panamena__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_panamena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_panamena__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_panamena",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_panamena__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 954
+    }
+  },
+  {
+    "name": "fl2_back_panamena",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_panamena__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1000,
+      "height": 954
+    }
+  },
+  {
+    "name": "fl2_front_nica",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_nica__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_nica",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_nica__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_nica",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_nica__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.984375,
+      "height": 921
+    }
+  },
+  {
+    "name": "fl2_back_nica",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_nica__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.984375,
+      "height": 921
+    }
+  },
+  {
+    "name": "fl2_front_tica",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_tica__dark-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_front_tica",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_front_tica__light-ink.png",
+    "bbox": {
+      "x": 410,
+      "y": 108,
+      "width": 380,
+      "height": 72
+    }
+  },
+  {
+    "name": "fl2_back_tica",
+    "scheme": "dark-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_tica__dark-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9765625,
+      "height": 890
+    }
+  },
+  {
+    "name": "fl2_back_tica",
+    "scheme": "light-ink",
+    "file": "/home/runner/work/byol-machine/byol-machine/out/fl2_back_tica__light-ink.png",
+    "bbox": {
+      "x": 0,
+      "y": 120,
+      "width": 1049.9765625,
+      "height": 890
+    }
+  }
+]
