@@ -13,11 +13,35 @@ if (!TOKEN && !DRY) { console.error('PRINTFUL_TOKEN missing'); process.exit(1); 
 if (!PUBLIC_BASE && !DRY) { console.error('PUBLIC_BASE missing'); process.exit(1); }
 
 const API = 'https://api.printful.com';
-async function pf(method, url, body) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+async function pf(method, url, body, attempt = 0) {
   const r = await fetch(API + url, { method, headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
   const j = await r.json();
+  if (r.status === 429 && attempt < 6) { // Printful rate limit: wait what it asks for, then retry
+    const secs = parseInt((JSON.stringify(j).match(/after (\d+) seconds/) || [])[1] || '60', 10);
+    console.log(`rate limited, waiting ${secs + 2}s`);
+    await sleep((secs + 2) * 1000);
+    return pf(method, url, body, attempt + 1);
+  }
   if (!r.ok) throw new Error(`${method} ${url} -> ${r.status} ${JSON.stringify(j).slice(0, 300)}`);
   return j.result;
+}
+// reconcile: anything already in the store (by name) counts as done, so reruns never duplicate
+async function reconcile() {
+  const known = new Set(Object.values(state));
+  let offset = 0;
+  for (;;) {
+    const page = await pf('GET', `/store/products?limit=100&offset=${offset}`);
+    for (const p of page) {
+      for (const L of listings) for (const g of GARMENTS) {
+        const name = L.code === 'latina' ? `Bring Your Own Latina ${g.label}` : `Bring Your Own Latina ${L.word} ${g.label}`;
+        if (p.name === name && !known.has(p.id)) { state[`${L.code}:${g.key}`] = p.id; known.add(p.id); }
+      }
+    }
+    if (page.length < 100) break;
+    offset += 100;
+  }
+  fs.writeFileSync(STATE, JSON.stringify(state, null, 2));
 }
 
 // garments: Printful catalog product ids. 71 = Bella + Canvas 3001 unisex tee, 146 = Gildan 18500 hoodie.
@@ -57,6 +81,7 @@ async function variantIds(g) {
 
 async function main() {
   const report = [];
+  if (!DRY) await reconcile();
   for (const L of listings) {
     if (ONLY && L.code !== ONLY) continue;
     const front = `byol_fl2_front_${L.code}__light-ink.png`, back = `byol_fl2_back_${L.code}__light-ink.png`;
@@ -78,7 +103,7 @@ async function main() {
       state[key] = res.id;
       fs.writeFileSync(STATE, JSON.stringify(state, null, 2));
       report.push(`${key}: created ${res.id}`);
-      await new Promise((r) => setTimeout(r, 1200)); // be polite to the rate limit
+      await sleep(2500); // be polite to the rate limit
     }
   }
   const out = `# push report ${new Date().toISOString()}\n` + report.join('\n') + '\n';
@@ -86,4 +111,9 @@ async function main() {
   fs.writeFileSync(path.join(__dirname, 'reports', 'latest.md'), out);
   console.log(out);
 }
-main().catch((e) => { console.error(e.message); process.exit(1); });
+main().catch((e) => {
+  console.error(e.message);
+  fs.mkdirSync(path.join(__dirname, 'reports'), { recursive: true });
+  fs.appendFileSync(path.join(__dirname, 'reports', 'latest.md'), `\nFAILED: ${e.message}\n`);
+  process.exit(1);
+});
