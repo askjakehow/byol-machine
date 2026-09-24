@@ -1,0 +1,49 @@
+name: byol machine
+on:
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "dry run (no Printful writes)"
+        default: "false"
+  schedule:
+    - cron: "0 14 * * 1"   # every Monday 7am Pacific: render anything new, push, report
+  push:
+    branches: [main]
+    paths: ["render.js", "listings.json", "push.js"]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: fonts
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-texgyre fontconfig python3-pil
+          mkdir -p ~/.fonts && cd ~/.fonts
+          for f in poppins/Poppins-Regular.ttf poppins/Poppins-Medium.ttf poppins/Poppins-Bold.ttf poppins/Poppins-Italic.ttf; do curl -sSLO "https://raw.githubusercontent.com/google/fonts/main/ofl/$f"; done
+          for f in "lora/Lora%5Bwght%5D.ttf" "lora/Lora-Italic%5Bwght%5D.ttf"; do curl -sSLO "https://raw.githubusercontent.com/google/fonts/main/ofl/$f"; done
+          fc-cache -f && fc-list | grep -ciE "poppins|lora|heros"
+      - name: deps
+        run: npm install && npx playwright install --with-deps chromium
+      - name: render flag line
+        run: node render.js flagline && python3 preview.py fl2_ flagline
+      - name: mockups
+        run: for c in $(node -e "console.log(require('./listings.json').map(l=>l.code).join(' '))"); do node mockup.js v2 $c; done
+      - name: commit rendered files
+        run: |
+          git config user.name "byol machine" && git config user.email "machine@users.noreply.github.com"
+          git add print preview out/manifest.json && git commit -m "render: flag line" || echo "nothing new"
+          git push
+      - name: push to Printful
+        env:
+          PRINTFUL_TOKEN: ${{ secrets.PRINTFUL_TOKEN }}
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: |
+          if [ "${{ github.event.inputs.dry }}" = "true" ]; then node push.js --dry; else node push.js; fi
+      - name: commit state and report
+        run: |
+          git add state reports && git commit -m "machine: push report" || echo "nothing new"
+          git push

@@ -1,0 +1,13 @@
+{
+  "name": "byol-machine",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bring Your Own Latina: code-drawn print designs, Printful push, Etsy copy",
+  "scripts": {
+    "render": "node render.js flagline",
+    "preview": "python3 preview.py fl2_ flagline",
+    "push": "node push.js",
+    "dry": "node push.js --dry"
+  },
+  "dependencies": { "playwright": "^1.47.0" }
+}
